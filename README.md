@@ -92,11 +92,14 @@ cd backend
 
 # 1. Install dependencies
 npm install
+   
+# 2. create .env (edit MONGO_URI / JWT_SECRET as needed)
+cp .env.example .env
 
-# 2. Seed competition and demo user
+# 3. Seed competition and demo user
 npm run seed
 
-# 3. Start development server (http://localhost:5000)
+# 4. Start development server (http://localhost:5000)
 npm run dev
 ```
 
