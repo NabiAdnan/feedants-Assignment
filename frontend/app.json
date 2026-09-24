@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Feedants",
+    "slug": "feedants-competition-details",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#ffffff" },
+    "ios": { "supportsTablet": true },
+    "android": {},
+    "web": { "bundler": "metro" }
+  }
+}
