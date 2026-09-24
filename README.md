@@ -84,7 +84,7 @@ feedants-assignment/
 
 ---
 
-## 🚀 Running Instructions
+## Running Instructions
 
 ### Backend (Node.js + Express + MongoDB)
 ```bash
@@ -115,7 +115,7 @@ npx expo start
 
 ---
 
-## 🔑 Environment Variables & Configuration Details
+##  Environment Variables & Configuration Details
 
 ### Backend `.env`
 ```env
@@ -131,27 +131,15 @@ UPLOAD_DIR=uploads
 ### Demo Credentials
 - **Email**: `demo@feedants.com`
 - **Password**: `password123`
-*(Or click "✨ Fill Demo Credentials" directly inside the app's Auth Modal).*
+*(Or click " Fill Demo Credentials" directly inside the app's Auth Modal).*
 
 ---
 
-## 🎥 Screen Recording Demonstration Guide
 
-To record the short video demonstration for submission:
-
-1. **Start Services**:
-   - Backend: `npm run dev` in `backend` (port 5000).
-   - Frontend: `npx expo start --web` in `frontend` (port 8081).
-2. **Key Flow to Demonstrate**:
-   - **Dynamic UI**: Show the competition details screen (`Feedants Classical Dance`, prize pool `₹1,500`, entry fee `₹99`, `Only 19 spots left` progress bar, judge info, ticking countdown banner, important dates, previous winners, info tabs, rewards breakdown, prize money info card, referral card, user reviews, ad banner, primary action bar, and bottom navigation bar).
-   - **Authentication**: Click `Log In` pill in HeaderBar or `Profile` tab in BottomNavBar to open `AuthModal`. Click `Fill Demo Credentials` and log in.
-   - **Registered State**: Observe state change to `Registered` badge and primary action bar changing to `Upload Submission` with `Registered` subtext.
-   - **Submission**: Click `Upload Submission`, select a sample video/image, and confirm upload notification.
-   - **Sign Out**: Click `Profile` tab, view account modal (Name, Email, Referral Code), and click `Sign Out`.
 
 ---
 
-## 📖 README Technical Breakdown
+##  README Technical Breakdown
 
 ### 1. Important Assumptions Made
 - **Local Asset Storage**: Local disk storage under `backend/uploads/` is used for media assets and submission uploads to ensure the assignment runs locally without cloud API keys.
